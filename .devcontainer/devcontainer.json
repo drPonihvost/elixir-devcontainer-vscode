@@ -1,0 +1,16 @@
+{
+    "image": "elixir:latest",
+    "name": "elixir-devcontainer",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "jakebecker.elixir-ls",
+                "eamodio.gitlens"
+            ]
+        }
+    },
+    "onCreateCommand": "elixir --version",
+    "forwardPorts": [
+        4000
+    ]
+}
